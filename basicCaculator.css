@@ -1,0 +1,30 @@
+
+
+body
+{
+    position: absolute;
+    left: 30em;
+    top: 10em;
+    border: solid #CFCFCF;
+    width: 300px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+button
+{
+    width: 3em;
+    text-align: center;
+    font-size: large;
+    margin: 8px;
+    padding: 10px;
+    border-width: 5px;
+}
+
+input
+{
+    width: 250px;
+    height: 2em;
+    margin: 1em;
+    border-radius: .5em;
+}

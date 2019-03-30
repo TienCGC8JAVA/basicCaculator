@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản</title>
+    <link type="text/css" rel="stylesheet" href="basicCaculator.css" />
+</head>
+<body onload="disabled();">
+    <input id="result" type="text" style="text-align: right;"/>
+    <form>
+        <button class=btn" value="1" type="button" onclick="result.value += this.value">1</button>
+        <button class=btn" value="2" type="button" onclick="result.value += this.value">2</button>
+        <button class=btn" value="3" type="button" onclick="result.value += this.value">3</button>
+        <button class=btn" value="+" type="button" onclick="result.value += this.value">+</button>
+    </form>
+    <form>
+        <button class=btn" value="4" type="button" onclick="result.value += this.value">4</button>
+        <button class=btn" value="5" type="button" onclick="result.value += this.value">5</button>
+        <button class=btn" value="6" type="button" onclick="result.value += this.value">6</button>
+        <button class=btn" value="-" type="button" onclick="result.value += this.value">-</button>
+    </form>
+    <form>
+        <button class=btn" value="7" type="button" onclick="result.value += this.value">7</button>
+        <button class=btn" value="8" type="button" onclick="result.value += this.value">8</button>
+        <button class=btn" value="9" type="button" onclick="result.value += this.value">9</button>
+        <button class=btn" value="*" type="button" onclick="result.value += this.value">x</button>
+    </form>
+    <form>
+        <button class=btn" value="C" type="reset" onclick="result.value = '' ">C</button>
+        <button class=btn" value="0" type="button" onclick="result.value += this.value">0</button>
+        <button class=btn" value="=" type="button" onclick="result.value = eval(result.value)">=</button>
+        <button class=btn" value="/" type="button" onclick="result.value += this.value">/</button>
+    </form>
+    <script src="basicCaculator.js"></script>
+</body>
+</html>
